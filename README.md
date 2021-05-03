@@ -1,31 +1,32 @@
 # AutomationTestMnavarro
 Automation test in webdriverIO Mnavarro
-# Foobar
 
-Foobar is a Python library for dealing with word pluralization.
+# Introduction
+
+This is a script that runs a normal navigation process from Looking up 'Focus Services at google.com to searching for Locations on focusservices.com, making some assertions and validating the existence of some elements in the DOM.
+
+# Tools required
+
+> have both installed on the latest version
+- node.js (npm)
+- Vscode
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+> Instructions
+- 1. Clone and download ths repository (https://github.com/Coralinav/AutomationTestMnavarro.git)
+- 2. unzip the project in a folder of your preference.
+- 3. open the folder using Vscode.
+- 4. open the integrated terminal
+- 5. Run the following commdan in the terminal: **npm install**
+- 6. Run the command: **npx wdio**
 
-bash
-pip install foobar
-
-
-## Usage
-
-python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+## documentation use
+- https://webdriver.io/
+- https://developer.mozilla.org/
 
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Thank you.
+Kind Regards.
 
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Melanie Navarro
