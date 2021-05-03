@@ -21,4 +21,16 @@ describe("Iframes Lesson", () => {
     browser.pause(3000);
   });
 
+  it("Step 3: Scrolling into 'Now Hiring' button and checking if it exists then clicking in 'locations' tab ", () => {
+    const nowHiringButton=$("//a[@href='https://www.focusservices.com/apply/']");
+    nowHiringButton.scrollIntoView();
+    browser.pause(3000);
+    nowHiringButton.isExisting();
+    const locationButton=$("//a[@href='https://www.focusservices.com/locations/']");
+    locationButton.scrollIntoView();
+    browser.pause(3000);
+    locationButton.click();
+
+  });
+
 });
