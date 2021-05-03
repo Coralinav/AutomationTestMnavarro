@@ -29,8 +29,18 @@ describe("Iframes Lesson", () => {
     const locationButton=$("//a[@href='https://www.focusservices.com/locations/']");
     locationButton.scrollIntoView();
     browser.pause(3000);
-    locationButton.click();
+    locationButton.click()
 
+  });
+
+  it("Step 4: Looking for North America link and doing an assertion ", () => {
+    const northAmericaLink=$('//span[text()="North America"]');
+    expect(northAmericaLink).toBeVisible();
+    browser.pause(3000);
+    const centralAmericaLink=$('//span[text()="Central America"]');
+    browser.pause(3000);
+    centralAmericaLink.scrollIntoView();
+    centralAmericaLink.click()
   });
 
 });
